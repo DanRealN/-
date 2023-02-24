@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="#"><img src="Logo.png" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="главное.html">Главное</a></li>
+                <li><a href="О нас.html">О нас</a></li>
+                <li><a href="Курсы.html">Курсы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav> 
+       <h1>О нас</h1>
+    </section>
+  <content>
+    <section class="location">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab11353e47ab7e4ebcfb9868bd010c186e6274f48d31e0be2bbb57e719a69675d&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ road Abc bul</h5>
+                        <p>USA</p>
+                    </span>
+                </div>
+            </div>
+            <div>
+            <i class="fa fa-phone"></i>
+            <span>+452523262</span>
+            <p>Mon to Sun 9am to pm</p>
+            </div>
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+                <h5>info gmamle gdhfgdhf</h5>
+                <p>24/7</p>
+            </span>
+        </div>
+        <div class="contact-col">
+            <form>
+                <input type="text" placeholder="Enter name">
+                <input type="text" placeholder="Enter nemale">
+                <textarea rows="5" placeholder="yourcoment"></textarea>
+                <button type="submit" class="btn red-btn">Post coment</button>
+            </form>
+        </div>
+    </div>
+    </section>
+  </content>
+    <footer>
+        <h4>О нас</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, officiis, sit doloribus ullam veniam quas sunt non nisi ad delectus ut iusto praesentium similique labore rem, quae sequi neque excepturi.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Совместно <i class="fa-solid fa-heart"></i></p>
+    </footer>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+</body>
+</html>

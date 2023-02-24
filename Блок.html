@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="#"><img src="Logo.png" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="главное.html">Главное</a></li>
+                <li><a href="О нас.html">О нас</a></li>
+                <li><a href="Курсы.html">Курсы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav> 
+       <h1>О нас</h1>
+    </section>
+<content>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Space.jpg" alt="">
+                <h2>hgdfherdererh</h2>
+                <p>jfgfrtthhdfggjhdshjfkjdkjfhdkjafhdkjhsfjdshfkdhsfkjdhk</p>
+                <br>
+                <p>hjghgjdjdsolkfdjsfjgijgerjkjgdssfjd</p>
+                <br>
+                <p>gfdgdsgsdgsgdsgsgsgsgdsgsdgdsggdsgsd</p>
+                <br>
+                <p>dsfdshfdhskjhfjsdkhfkjdshkjfhdkjfhsjkhfkjdhskj</p>
+                <div class="comment-box">
+                    <h3>Leave coment</h3>
+                    <form class="comment-box">
+                        <input type="text" placeholder="enter name">
+                        <input type="text" placeholder="enter email">
+                        <textarea rows="5" placeholder="btn red-btn"></textarea>
+                        <button type="submit" class="btn red-btn">post comment</button>
+                    </form>
+                </div>
+            </div>
+        
+
+        <div class="blog-right">
+            <h3>postgfgfg</h3>
+            <div>
+                <span>busssghg</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>busssghg</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>busssghg</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>busssghg</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>busssghg</span>
+                <span>21</span>
+            </div>
+        </div>
+    </div>
+    </section>
+</content>
+    <footer>
+        <h4>О нас</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, officiis, sit doloribus ullam veniam quas sunt non nisi ad delectus ut iusto praesentium similique labore rem, quae sequi neque excepturi.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Совместно <i class="fa-solid fa-heart"></i></p>
+    </footer>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+</body>
+</html>
